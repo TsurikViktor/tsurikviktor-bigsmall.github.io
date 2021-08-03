@@ -1,4 +1,4 @@
-var z = confirm('сравнение значений (OK) сравнение КМ-FooT (Отмена)' )
+var z = confirm('сравнение значений (OK) сравнение КМ-FooT (Отмена)' );
 
 if (z===true){
     var x = prompt('Введите значение 1') ;
@@ -31,12 +31,15 @@ if (z===true){
     console.log('FOOT--->M',footToM);
 
     if (kmToM > footToM) {
-        alert (`${km} km больше ${foot} foot`)
+        console.log('km > foot--->',kmToM > footToM);
+        alert (`${km} km больше ${foot} foot`);
     }
     else if (kmToM < footToM) {
-        alert (`${km} km меньше ${foot} foot`)
+        console.log('km < foot--->',kmToM < footToM);
+        alert (`${km} km меньше ${foot} foot`);
     }
     else if (kmToM === footToM) {
-        alert(`${km} km равно ${foot} foot`)
+        console.log('km = foot--->',kmToM === footToM);
+        alert(`${km} km равно ${foot} foot`);
     }
 }

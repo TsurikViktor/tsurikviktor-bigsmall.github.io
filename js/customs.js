@@ -1,4 +1,5 @@
-var z = confirm('сравнение значений (OK) сравнение КМ-FooT (Отмена)' );
+var z = confirm('сравнение значений (OK) сравнение КМ-FooT (Отмена)' )
+
 if (z===true){
     var x = prompt('Введите значение 1') ;
     var y = prompt('Введите значение 2');
@@ -28,6 +29,7 @@ if (z===true){
     console.log('FOOT--->',foot);
     console.log('KM--->M',kmToM);
     console.log('FOOT--->M',footToM);
+
     if (kmToM > footToM) {
         alert (`${km} km больше ${foot} foot`)
     }
